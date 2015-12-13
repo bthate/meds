@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+#
+#
+
+""" MEDS - Medicine Effect Registration Program. """
+
+__copyright__ = "Copyright 2015, Bart Thate"
+
+## IMPORTS
+
+import sys, os
+sys.path.insert(0, os.getcwd())
+
+from meds.log import loglevel
+from meds.kernel import kernel
+
+import readline
+import locale
+import time
+import site
+import sys
+import os
+
+## MAIN
+
+def main():
+    loglevel("error")
+    if len(sys.argv) == 1: os._exit(0)
+    data = os.popen("ps -p %s -o pid,tid,class,rtprio,ni,pri,psr,rss,pcpu,stat,wchan:14,comm" % sys.argv[1]).read().strip()
+    print(data)
+    os._exit(0)
+
+if __name__ == "__main__": 
+    try: main()
+    except (EOFError, KeyboardInterrupt): print()
+    kernel.shutdown()
+    sys.stdout.flush()
+    os._exit(0)

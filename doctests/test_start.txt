@@ -1,0 +1,14 @@
+#####
+START
+#####
+
+>>> from meds.object import Object
+>>> o = Object()
+>>> o.json()
+'{}'
+
+>>> from meds.object import Object
+>>> o = Object()
+>>> o.txt = "version"
+>>> o.json()
+'{"txt": "version"}'

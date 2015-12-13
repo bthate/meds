@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import doctest
+import sys
+import os
+
+sys.path.insert(0, os.getcwd() + os.sep + ".")
+sys.path.insert(0, os.getcwd() + os.sep + "..")
+
+from meds.log import loglevel
+
+loglevel("error")
+from meds.mods import cmnds
+cmnds.init()
+
+for fn in os.listdir("doctests"):
+     if fn.endswith(".txt"): doctest.testfile("doctests" + os.sep + fn, module_relative=False)

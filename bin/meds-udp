@@ -1,0 +1,51 @@
+#!/usr/bin/python3
+#
+#
+
+""" udp client program. """
+
+__copyright__ = "Copyright 2015, Bart Thate"
+
+## BOOTSTRAP
+
+import os, sys, warnings
+sys.path.insert(0, os.getcwd())
+warnings.simplefilter("ignore", UserWarning)
+
+## IMPORTS
+
+from rechter.extra.rijndael import rijndael
+from rechter.utils.url import strip_html
+from rechter.object import Object
+from rechter.cfg import cfg
+
+import logging
+import select
+import socket
+
+## FUNCTIONS
+
+def out(txt):
+    txt = strip_html(txt)
+    z = '%s %s' % (cfg.udp.password, txt.strip())
+    while len(z) % 16: z += "\0"
+    data = ""
+    crypt = rijndael(cfg.udp['seed'])
+    for i in range(int(len(z)/16)):
+        txt = z[i*16:i*16+16]
+        data += crypt.encrypt(txt)
+    # sock = socket.socket(socket.AF_INET6, socket.SOCK_DGRAM)
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    sock.sendto(bytes(data, "utf-8"), (cfg.udp.host, cfg.udp.port))
+
+if __name__ == "__main__":
+    (i, o, e) = select.select([sys.stdin],[sys.stdout,],[sys.stderr,])
+    if i:
+        txt = sys.stdin.read()
+        for line in txt.split("\n"):
+            if not line: continue
+            if len(sys.argv) > 1:
+                for arg in sys.argv[1:]:
+                    if line.startswith(arg): out(line) ; break 
+            elif line: out(line)
+    elif len(sys.argv) > 1: out(" ".join(sys.argv[1:]))

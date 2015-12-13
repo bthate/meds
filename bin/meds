@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+#
+#
+
+""" MEDS - Medicine Effect Registration Program. """
+
+__copyright__ = "Copyright 2015, Bart Thate"
+
+import sys, os
+sys.path.insert(0, os.getcwd())
+
+from meds.misc import shutdown
+from meds.bots.cli import CLI
+
+import readline
+
+def main():
+    bot = CLI()
+    bot.start()
+
+if __name__ == "__main__": 
+    try: main()
+    except (EOFError, KeyboardInterrupt): print()
+    shutdown()
+    sys.stdout.flush()
+    os._exit(0)

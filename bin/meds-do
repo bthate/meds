@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+#
+#
+
+## BOOTSTRAP
+
+__copyright__ = "Copyright 2015, Bart Thate"
+
+import os, sys
+import importlib
+import warnings
+import shutil
+
+sys.path.insert(0, os.getcwd())
+
+#warnings.simplefilter("ignore", UserWarning)
+#warnings.simplefilter("ignore", DeprecationWarning)
+
+importlib.invalidate_caches()
+
+curdir = os.path.abspath(os.getcwd())
+try: fname = sys.argv[1]
+except: fname = curdir.split(os.sep)[-1]
+installdir = fname.upper()
+
+if not os.path.isdir(installdir): os.mkdir(installdir)
+
+print("setting PYTHONPATH to %s" % installdir)
+os.environ['PYTHONPATH'] = installdir
+
+try: shutil.rmtree("dist")
+except Exception as ex: pass
+try: shutil.rmtree("%s.egg-info" % fname)
+except Exception as ex: pass
+try: os.mkdir("dist")
+except Exception as ex: pass
+#try: shutil.rmtree(installdir)
+#except Exception as ex: pass
+#try: os.mkdir(installdir)
+#except Exception as ex: pass
+
+## RUN
+
+for line in os.popen("python3 setup.py sdist").readlines(): print(line.strip())
+
+## INSTALL
+
+fns = os.listdir("dist")
+target = fname
+highest = 0
+for fn in fns:
+    f = fn.split(".")[0]
+    nr = int(f.split("-")[-1])
+    if nr > highest: highest = nr ; target = fn
+
+try:
+    from setuptools.command.easy_install import main
+    import pkg_resources
+except ImportError as ex: print("setuptools is needed to use meds-do: %s" % str(ex)) ;  os._exit(1)
+
+## DO
+
+runstring = '--record=install.log --install-dir=%s -a -U -l dist/%s ' % (installdir, target)
+main(runstring.split())
+for line in os.popen("tar zcvf %s.tar.gz %s" % (fname, fname.upper())).readlines(): print(line.strip())
+#for line in os.popen("~/.local/bin/meds-docs").readlines(): print(line.strip())
+print(runstring)

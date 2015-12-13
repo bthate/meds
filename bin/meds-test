@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+#
+
+""" run tests. """
+
+__copyright__ =  "Copyright 2015, Bart. Thate"
+
+import os,sys
+sys.path.insert(0,os.getcwd())
+
+import unittest
+import sys
+import os
+
+from meds.misc import parse_cli
+
+parse_cli()
+
+test_path = os.getcwd() + os.sep + "tests"
+suite = unittest.loader.TestLoader().discover(test_path, pattern="test*.py")
+unittest.TextTestRunner(verbosity=3).run(suite)

@@ -1,0 +1,203 @@
+# this is an MEDS file, 7724 characters
+#
+# this file can be edited !!
+
+{
+  "data": {
+    "Authentication-Results": "mx.google.com; spf=pass (google.com: domain of Postbus@noord-holland.politie.nl designates 145.119.166.19 as permitted sender) smtp.mail=Postbus@noord-holland.politie.nl",
+    "Content-Transfer-Encoding": "7bit",
+    "Content-Type": "multipart/alternative;
+	boundary=\"----_=_NextPart_001_01CC8D7F.830C916D\"",
+    "Content-class": "urn:content-classes:message",
+    "Date": "Tue, 18 Oct 2011 12:20:08 +0200",
+    "Delivered-To": "bthate@gmail.com",
+    "From": "\"NHNLK160\" <Postbus@noord-holland.politie.nl>",
+    "Importance": "normal",
+    "In-Reply-To": "<CAJdWPN4pQN31OHLH6saXmUnoX60Cys1dSzLwGd9C39tUX3zr0Q@mail.gmail.com>",
+    "MIME-Version": "1.0",
+    "Message-ID": "<B3B34B4EA086D949A96A612F70AC35C8C3428F@VNWYSW0045.politie.local>",
+    "Priority": "normal",
+    "Received": "from mail1.politie.nl (mail1.politie.nl. [145.119.166.19])
+        by mx.google.com with ESMTP id a16si364760eeg.212.2011.10.18.03.20.09;
+        Tue, 18 Oct 2011 03:20:09 -0700 (PDT)",
+    "Received-SPF": "pass (google.com: domain of Postbus@noord-holland.politie.nl designates 145.119.166.19 as permitted sender) client-ip=145.119.166.19;",
+    "References": "<978398559.1318521596193.JavaMail.tomcat@app11><7B974E9C460D224C8A7F1430CDFDC01A0181121A@VNWYSW0045.politie.local> <CAJdWPN4pQN31OHLH6saXmUnoX60Cys1dSzLwGd9C39tUX3zr0Q@mail.gmail.com>",
+    "Return-Path": "<Postbus@noord-holland.politie.nl>",
+    "Subject": "RE: Formulier : 010309258, Een vraag of melding aan de politie, van Thate",
+    "Thread-Index": "AcyL90Z1dZ8dsiv8RWaKErxlMKgkJgBh2DIQ",
+    "Thread-Topic": "Formulier : 010309258, Een vraag of melding aan de politie, van Thate",
+    "To": "\"Bart Thate\" <bthate@gmail.com>",
+    "X-IronPort-AV": "E=Sophos;i=\"4.69,364,1315173600\"; 
+   d=\"scan'208,217\";a=\"52549918\"",
+    "X-MS-Has-Attach": "",
+    "X-MS-TNEF-Correlator": "",
+    "X-MimeOLE": "Produced By Microsoft MimeOLE V6.00.3790.4862",
+    "X-OriginalArrivalTime": "18 Oct 2011 10:20:09.0183 (UTC) FILETIME=[8366FEF0:01CC8D7F]",
+    "prefix": "email",
+    "text": "Geachte heer Thate,
+
+ 
+
+Hartelijk dank voor uw e-mail.
+
+ 
+
+Ik begrijp uit uw verhaal dat dat er al een uitspraak is gedaan door de klachtencommissie van de GGZ NHN.
+
+Als u het met deze uitspraak niet eens bent, dan kunt u mogelijk de zaak voorleggen bij een landelijke klachtencommissie van de GGZ.
+
+Als dit niet mogelijk is, kunt u ook contact opnemen met een advocaat en een civiele procedure aanspannen bij de rechter.
+
+ 
+
+Aangifte bij de politie is niet mogelijk, omdat er geen sprake is van opzet.
+
+ 
+
+Ik vertrouw erop u hiermee voldoende te hebben geïnformeerd.
+
+ 
+
+Met vriendelijke groet,
+
+ 
+
+Els Vasbinder
+
+Politie Noord-Holland Noord
+
+Telefoon 0900-8844
+
+ 
+
+ 
+
+ 
+
+ 
+
+________________________________
+
+Van: Bart Thate [mailto:bthate@gmail.com] 
+Verzonden: 16 oktober 2011 13:32
+Aan: NHN_Postbus
+Onderwerp: Re: Formulier : 010309258, Een vraag of melding aan de politie, van Thate
+
+ 
+
+Geachte mevrouw van Elsbergen, (of een andere politie man/vrouw die dit afhandelt)
+
+ 
+
+    ik kon niet genoeg informatie verschaffen omdat het invul formulier het niet toeliet om attachements mee te sturen, ik doe dat nog per deze. Bij gevoegd zijn fotos die gemaakt zijn van mij vriendin in het ziekenhuis Geesterkogge in Schagen.
+
+ 
+
+Ze zijn mijns inzien zo schokkend (sta hier weer met trillende benen als ik ze terug zie) dat ik vind dat ik dit moet melden.
+
+ 
+
+De zaak is al voor de klachten commisie geweest (we hebben gelijk gekregen, de psychiater had volgens de richtlijnen moeten werken wat hij niet gedaan heeft), ik kan hier van ook de foto copyen toesturen. De reactie van de GGZ NHN op deze misstand is dat hij een reprimande gekregen heeft, maar verder geen lessen die er getrokken worden en ook geen excuus of aangevingen hoe het vertrouwen van de patient hersteld kan worden. Schizofrenen als ik en andere psychische patienten zijn zo weerbaar wij kunnen niet voor onszelf opkomen, ben zelf er een zorgwekkende zorgmijder van geworden. Het is zaak dat als er zoiets voorspeelt vertrouwen hersteld kan worden zodat wij toch de zorg krijgen die we zo hard nodig hebben.
+
+ 
+
+Ik heb ook gekeken op de site van het Tucht college, waarbij ik hier wil copieren wat er voor mij relevant is:
+
+ 
+
+Volgens mij heeft de arts een strafbaar feit begaan. Wat nu?
+
+Naar boven <http://www.tuchtcollege-gezondheidszorg.nl/faq/vragenblokklacht/#boven> 
+
+Als u denkt dat er sprake is van strafbare feiten kunt u het beste aangifte doen bij de politie. Die maakt daarvan proces-verbaal op en stuurt het naar de officier van justitie. De officier bepaalt vervolgens of de zaak aan de strafrechter wordt voorgelegd. Die kan de betrokken hulpverlener beboeten of in het uiterste geval veroordelen tot een gevangenisstraf.
+
+http://www.tuchtcollege-gezondheidszorg.nl/faq/vragenblokklacht/
+
+Als iemand zo toegetakeld word is dat mijns inzien een strafbaar feit, ik laat het oordeel hierover aan jullie over.
+
+ 
+
+Ik hoop dat deze email goed aankomt.
+
+ 
+
+Hoogachtend,
+
+
+
+
+Bart Thate
+
+ 
+
+programming schizofrenic - \"till freedom come!\"
+
+ 
+
+[!] http://protocol.by/botfather
+
+[!] http://botfather.blogspot.com
+
+[!] http://jsonbot.org <http://jsonbot.org/> 
+
+
+
+
+
+2011/10/16 NHNLK160 <Postbus@noord-holland.politie.nl>
+
+Geachte heer Thate,
+
+Naar aanleiding van uw mail naar de politie wil ik u doorverwijzen naar het Medisch Tuchtcollege. Uit de gegevens die u heeft doorgegeven, kan ik niet opmaken dat wij als politie zijnde, u hierbij kunnen helpen.
+
+Hopende u hiermee voldoende te hebben geïnformeerd.
+
+Met vriendelijke groet,
+Monique van Elsbergen
+Politie Noord-Holland Noord
+
+-----Oorspronkelijk bericht-----
+Van: noreply@mijnpolitie.nl [mailto:noreply@mijnpolitie.nl]
+Verzonden: 13 oktober 2011 18:00
+Aan: NHN_Postbus
+Onderwerp: Formulier : 010309258, Een vraag of melding aan de politie, van Thate
+
+L.S.,
+
+Er is een formulier 'Een vraag of melding aan de politie' ingevuld.
+
+Bijgevoegd zijn een pdf met de ingevoerde gegevens, en een xml bestand met dezelde informatie.
+
+Deze mail is automatisch gegenereerd door de EForms applicatie.
+
+
+
+----
+D I S C L A I M E R
+De informatie verzonden met dit e-mailbericht is vertrouwelijk en uitsluitend bestemd voor
+de geadresseerde. Gebruik van deze informatie door anderen dan de geadresseerde is zonder
+goedkeuring van de afzender ten strengste verboden en valt buiten de verantwoordelijkheid
+en aansprakelijkheid van de politie Noord-Holland Noord. Indien dit e-mailbericht abusievelijk
+aan u verstuurd is, verzoek ik u het E-mailbericht te retourneren en alle informatie hiervan
+te verwijderen. De politie Noord-Holland Noord acht zich niet gebonden aan contracten of
+bestellingen die door middel van een e-mailbericht zijn verzonden.
+
+ 
+
+
+----
+D I S C L A I M E R 
+De informatie verzonden met dit e-mailbericht is vertrouwelijk en uitsluitend bestemd voor
+de geadresseerde. Gebruik van deze informatie door anderen dan de geadresseerde is zonder 
+goedkeuring van de afzender ten strengste verboden en valt buiten de verantwoordelijkheid 
+en aansprakelijkheid van de politie Noord-Holland Noord. Indien dit e-mailbericht abusievelijk
+aan u verstuurd is, verzoek ik u het E-mailbericht te retourneren en alle informatie hiervan
+te verwijderen. De politie Noord-Holland Noord acht zich niet gebonden aan contracten of 
+bestellingen die door middel van een e-mailbericht zijn verzonden.
+"
+  },
+  "saved": "Mon Aug  3 18:04:19 2015",
+  "saved_from": "meds.plugins.write",
+  "signature": "383430f05987d84011fea4df7d3e88ab371737a9",
+  "type": "Object"
+}
